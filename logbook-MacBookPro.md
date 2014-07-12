@@ -56,6 +56,20 @@ pip install grip
 * install `Twitter 3.0.1` from AppStore
 * install `Microsoft Remote Desktop 8.0.7` from AppStore
 * `brew install htop`
+* install `ghost` see [http://docs.ghost.org/installation/mac/](http://docs.ghost.org/installation/mac/) or [https://github.com/TryGhost/Ghost](https://github.com/TryGhost/Ghost)
+```bash
+mkdir -p ~/code/ghost
+cd ~/code/ghost
+curl -OL https://ghost.org/zip/ghost-0.4.2.zip
+unzip ghost-0.4.2.zip
+npm install --production
+npm start
+```
+* `open http://127.0.0.1:2368` to open your local blog in your favorite browser
+* `open http://127.0.0.1:2368/ghost` to create an Admin account
+* install `buster` see [https://github.com/axitkhurana/buster](https://github.com/axitkhurana/buster)
+* `pip install buster`
+* `pip install wget`
 
 
 DR, 2014
