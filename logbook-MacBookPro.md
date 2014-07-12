@@ -47,6 +47,8 @@ pip install grip
 * install `Sqwiggle 0.5.2` from [https://www.sqwiggle.com](https://www.sqwiggle.com) `sqwiggle-0.5.2.dmg`
 
 * install `GitHub for Mac` from [https://mac.github.com](https://mac.github.com) 
+
+
 ## 2014-07-11
 * `brew install tree`
 
