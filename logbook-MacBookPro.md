@@ -51,6 +51,13 @@ pip install grip
 
 ## 2014-07-11
 * `brew install tree`
+* install `nvm` see [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
+```bash
+curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | bash
+```
+* `nvm install 0.10` install Node v0.10.x 
+* `nvm ls`
+* `nvm use current`
 
 
 ## 2014-07-12
