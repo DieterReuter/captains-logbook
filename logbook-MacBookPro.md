@@ -114,5 +114,7 @@ npm install -g jsontool
 npm install -g js-beautify
 npm install -g http-console
 ```
+* install `Kindle 1.10.6` from AppStore
+
 
 DR, 2014
