@@ -106,6 +106,7 @@ vagrant-vbox-snapshot (0.0.5)
 ```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
+* install `iTerm 2`, see http://www.iterm2.com
 
 
 DR, 2014
