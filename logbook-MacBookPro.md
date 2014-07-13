@@ -107,6 +107,12 @@ vagrant-vbox-snapshot (0.0.5)
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 * install `iTerm 2`, see http://www.iterm2.com
-
+* install some Node modules
+```bash
+nvm use 0.10.26
+npm install -g jsontool
+npm install -g js-beautify
+npm install -g http-console
+```
 
 DR, 2014
