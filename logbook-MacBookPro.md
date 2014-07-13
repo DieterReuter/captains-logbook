@@ -102,7 +102,7 @@ vagrant-vbox-snapshot (0.0.5)
 * `brew install wakeonlan`
 * `brew install macvim`
 * `brew install vim --override-system-vi`
-* customizing Sublime Text 3, see http://www.sublimetext.com/docs/2/osx_command_line.html
+* customizing Sublime Text 3, see http://www.sublimetext.com/docs/3/osx_command_line.html
 ```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
