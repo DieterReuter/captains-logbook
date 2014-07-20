@@ -102,6 +102,10 @@ vagrant-share (1.1.0, system)
 vagrant-vbox-snapshot (0.0.5)
 ```
 * `brew install wakeonlan`
+```bash
+# wake up my NUC device on 192.168.178.143
+wakeonlan c0:3f:d5:63:1e:94
+```
 * `brew install macvim`
 * `brew install vim --override-system-vi`
 * customizing Sublime Text 3, see http://www.sublimetext.com/docs/3/osx_command_line.html
@@ -134,6 +138,7 @@ cd /Volumes/VMware-ovftool-3.5.0-1274719-mac.x64.dmg
 sudo installer -verbose -pkg VMware\ OVF\ Tool.pkg -target /
 hdiutil info
 hdiutil detach /dev/disk1s2
+ln -s /Applications/VMware\ OVF\ Tool/ovftool /usr/local/bin/ovftool
 ```
 
 DR, 2014
