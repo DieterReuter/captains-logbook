@@ -80,7 +80,9 @@ npm start
 * `pip install buster`
 * `pip install wget`
 
+
 ## 2014-07-13
+
 * install `VirtualBox 4.3.12` from https://www.virtualbox.org/wiki/Downloads
 * install `VirtualBox 4.3.12 Oracle VM VirtualBox Extension Pack`
 * install `Vagrant 1.6.3` from http://www.vagrantup.com/downloads.html
@@ -116,5 +118,22 @@ npm install -g http-console
 ```
 * install `Kindle 1.10.6` from AppStore
 
+
+## 2014-07-18
+* install `Wallpaper by Behance 1.0.13` from AppStore
+* install `Work in Progress 1.2.5` from AppStore
+* install `Keynote 6.2` from AppStore
+
+
+## 2014-07-20
+* install `VMware OVF Tool` directly from VMware, see https://my.vmware.com/de/group/vmware/details?downloadGroup=OVFTOOL350&productId=352 (note: you'll need a VMware account)
+```bash
+download VMware-ovftool-3.5.0-1274719-mac.x64.dmg
+hdiutil attach VMware-ovftool-3.5.0-1274719-mac.x64.dmg
+cd /Volumes/VMware-ovftool-3.5.0-1274719-mac.x64.dmg
+sudo installer -verbose -pkg VMware\ OVF\ Tool.pkg -target /
+hdiutil info
+hdiutil detach /dev/disk1s2
+```
 
 DR, 2014
