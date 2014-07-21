@@ -141,4 +141,9 @@ hdiutil detach /dev/disk1s2
 ln -s /Applications/VMware\ OVF\ Tool/ovftool /usr/local/bin/ovftool
 ```
 
+
+## 2014-07-21
+*`brew install httpie`
+
+
 DR, 2014
