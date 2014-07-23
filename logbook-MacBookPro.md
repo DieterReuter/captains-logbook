@@ -144,6 +144,18 @@ ln -s /Applications/VMware\ OVF\ Tool/ovftool /usr/local/bin/ovftool
 
 ## 2014-07-21
 *`brew install httpie`
+*`sudo pip install pyvmomi`, see http://www.virtuallyghetto.com/2013/12/early-xmas-gift-from-vmware-pyvmomi.html
+*`sudo gem install rbvmomi`
+*`sudo gem install nokogiri --version "=1.5.5"`, to solve version conflicts with rbvmomi
+
+
+## 2014-07-22
+* install `Wireshark 1.10.8`, see http://www.wireshark.org/download.html
+* install `XQuartz 2.7.6`, see http://xquartz.macosforge.org/landing/
+
+
+## 2014-07-23
+* install `Silverlight.dmg` just to watch a Webinar
 
 
 DR, 2014
