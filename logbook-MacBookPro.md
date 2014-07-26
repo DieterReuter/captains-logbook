@@ -214,5 +214,12 @@ vagrant plugin install vagrant-serverspec
 vagrant plugin install vagrant-multiprovider-snap
 ```
 
+Next try, see http://stackoverflow.com/questions/19569031/error-failed-to-build-gem-native-extension-on-mavericks
+```bash
+xcode-select --install
+sudo gem install nokogiri
+```
+OK, that worked fine!
+
 
 DR, 2014
