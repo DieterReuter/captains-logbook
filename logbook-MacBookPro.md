@@ -179,4 +179,40 @@ vagrant plugin uninstall vagrant-vbox-snapshot
 vagrant plugin install vagrant-multiprovider-snap
 ```
 
+
+* fixing problems with `nokogiri` for Homebrew 0.9.5
+* see http://nokogiri.org/tutorials/installing_nokogiri.html
+```bash
+brew link libxml2 libxslt
+brew link libxml2 libxslt --force
+```
+```bash
+mkdir libiconv
+cd libiconv
+wget http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.13.1.tar.gz
+tar xvfz libiconv-1.13.1.tar.gz
+cd libiconv-1.13.1
+./configure --prefix=/usr/local/Cellar/libiconv/1.13.1
+make
+sudo make install
+```
+```bash
+sudo gem install nokogiri -- --with-xml2-include=/usr/local/Cellar/libxml2/2.7.8/include/libxml2 \
+                        --with-xml2-lib=/usr/local/Cellar/libxml2/2.7.8/lib \ 
+                        --with-xslt-dir=/usr/local/Cellar/libxslt/1.1.26 \
+                        --with-iconv-include=/usr/local/Cellar/libiconv/1.13.1/include \
+                        --with-iconv-lib=/usr/local/Cellar/libiconv/1.13.1/lib
+```
+
+* repair Vagrant installation
+```bash
+mv ~/.vagrant.d ~/.vagrant.d-sav
+mv ~/.vagrant.d-sav/boxes ~/.vagrant.d/
+vagrant plugin install vagrant-cachier
+vagrant plugin install vagrant-pristine
+vagrant plugin install vagrant-serverspec
+vagrant plugin install vagrant-multiprovider-snap
+```
+
+
 DR, 2014
