@@ -156,6 +156,11 @@ ln -s /Applications/VMware\ OVF\ Tool/ovftool /usr/local/bin/ovftool
 
 ## 2014-07-23
 * install `Silverlight.dmg` just to watch a Webinar
+* `brew install tcpflow`, details see https://developer.apple.com/library/ios/qa/qa1176/_index.html#//apple_ref/doc/uid/DTS10001707-CH1-SECGETTINGSTARTEDWITHTCPFLOW
+
+
+## 2014-07-26
+* install `Wunderlist 2.3.5` App from AppStore
 
 
 DR, 2014
