@@ -172,6 +172,7 @@ brew install packer
 ```
 * install `VirtualBox 4.3.14` from https://www.virtualbox.org/wiki/Downloads
 * install `VirtualBox 4.3.14 Oracle VM VirtualBox Extension Pack`
+* install `VMware Fusion 6.0.4 Trial` from https://www.vmware.com/go/tryfusion
 
 
 DR, 2014
