@@ -161,6 +161,17 @@ ln -s /Applications/VMware\ OVF\ Tool/ovftool /usr/local/bin/ovftool
 
 ## 2014-07-26
 * install `Wunderlist 2.3.5` App from AppStore
+* install Vagrant plug-in `vagrant-serverspec`
+```bash
+vagrant plugin install vagrant-serverspec
+```
+* install `packer 0.6.0` as decribed in http://www.packer.io/intro/getting-started/setup.html
+```bash
+brew tap homebrew/binary
+brew install packer
+```
+* install `VirtualBox 4.3.14` from https://www.virtualbox.org/wiki/Downloads
+* install `VirtualBox 4.3.14 Oracle VM VirtualBox Extension Pack`
 
 
 DR, 2014
