@@ -14,8 +14,7 @@ I'm using [grip](https://github.com/joeyespo/grip) to view the markdown files in
 
 ```bash
 vi logbook-MacBookPro.md
-open http://localhost:5000
-grip logbook-MacBookPro.md
+open http://localhost:5000; grip logbook-MacBookPro.md
 ```
 
 

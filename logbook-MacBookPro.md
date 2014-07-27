@@ -6,7 +6,7 @@
 
 ## 2014-07-09
 
-* install `homebrew` [see](http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x)
+* install `homebrew`, see http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x
 ```bash
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 ```
@@ -32,12 +32,12 @@ occurs before /usr/bin. Here is a one-liner:
 echo export PATH='/usr/local/bin:$PATH' >> ~/.bash_profile
 ```
 
-* install `grip` see https://github.com/joeyespo/grip
+* install `grip`, see https://github.com/joeyespo/grip
 ```bash
 pip install grip
 ```
 
-* install `Node` from http://nodejs.org `node-v0.10.29.pkg`
+* install `Node.js` from http://nodejs.org `node-v0.10.29.pkg`
 * install `Sublime Text 3` from http://www.sublimetext.com `Sublime Text Build 3059.dmg`
 
 
@@ -51,7 +51,7 @@ pip install grip
 
 ## 2014-07-11
 * `brew install tree`
-* install `nvm` see https://github.com/creationix/nvm
+* install `nvm`, see https://github.com/creationix/nvm
 ```bash
 curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | bash
 ```
@@ -65,7 +65,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | bash
 * install `Twitter 3.0.1` from AppStore
 * install `Microsoft Remote Desktop 8.0.7` from AppStore
 * `brew install htop`
-* install `ghost` see http://docs.ghost.org/installation/mac or https://github.com/TryGhost/Ghost
+* install `ghost`, see http://docs.ghost.org/installation/mac or https://github.com/TryGhost/Ghost
 ```bash
 mkdir -p ~/code/ghost
 cd ~/code/ghost
@@ -76,7 +76,7 @@ npm start
 ```
 * `open http://127.0.0.1:2368` to open your local blog in your favorite browser
 * `open http://127.0.0.1:2368/ghost` to create an Admin account
-* install `buster` see https://github.com/axitkhurana/buster
+* install `buster`, see https://github.com/axitkhurana/buster
 * `pip install buster`
 * `pip install wget`
 
@@ -108,7 +108,7 @@ wakeonlan c0:3f:d5:63:1e:94
 ```
 * `brew install macvim`
 * `brew install vim --override-system-vi`
-* customizing Sublime Text 3, see http://www.sublimetext.com/docs/3/osx_command_line.html
+* customizing `Sublime Text 3`, see http://www.sublimetext.com/docs/3/osx_command_line.html
 ```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
@@ -143,10 +143,10 @@ ln -s /Applications/VMware\ OVF\ Tool/ovftool /usr/local/bin/ovftool
 
 
 ## 2014-07-21
-*`brew install httpie`
-*`sudo pip install pyvmomi`, see http://www.virtuallyghetto.com/2013/12/early-xmas-gift-from-vmware-pyvmomi.html
-*`sudo gem install rbvmomi`
-*`sudo gem install nokogiri --version "=1.5.5"`, to solve version conflicts with rbvmomi
+* `brew install httpie`
+* `sudo pip install pyvmomi`, see http://www.virtuallyghetto.com/2013/12/early-xmas-gift-from-vmware-pyvmomi.html
+* `sudo gem install rbvmomi`
+* `sudo gem install nokogiri --version "=1.5.5"`, to solve version conflicts with rbvmomi
 
 
 ## 2014-07-22
@@ -160,7 +160,7 @@ ln -s /Applications/VMware\ OVF\ Tool/ovftool /usr/local/bin/ovftool
 
 
 ## 2014-07-26
-* install `Wunderlist 2.3.5` App from AppStore
+* install `Wunderlist 2.3.5` from AppStore
 * install Vagrant plug-in `vagrant-serverspec`
 ```bash
 vagrant plugin install vagrant-serverspec
@@ -180,8 +180,7 @@ vagrant plugin install vagrant-multiprovider-snap
 ```
 
 
-* fixing problems with `nokogiri` for Homebrew 0.9.5
-* see http://nokogiri.org/tutorials/installing_nokogiri.html
+* fixing problems with `nokogiri` for Homebrew 0.9.5, see http://nokogiri.org/tutorials/installing_nokogiri.html
 ```bash
 brew link libxml2 libxslt
 brew link libxml2 libxslt --force
