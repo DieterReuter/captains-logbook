@@ -45,7 +45,6 @@ pip install grip
 
 * install `Google Chrome` from http://www.google.de/intl/us/chrome/browser `googlechrome.dmg`
 * install `Sqwiggle 0.5.2` from https://www.sqwiggle.com `sqwiggle-0.5.2.dmg`
-
 * install `GitHub for Mac` from https://mac.github.com
 
 
