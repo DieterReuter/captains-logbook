@@ -237,6 +237,8 @@ vagrant-serverspec (0.1.0)
 vagrant-share (1.1.0, system)
 vagrant-vmware-fusion (2.4.1)
 ```
+* install `Dropbox 2.10.3` from https://www.dropbox.com/
+* install `Suspicious Package 1.3` from http://www.mothersruin.com/software/SuspiciousPackage/
 
 
 DR, 2014
