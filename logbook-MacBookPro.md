@@ -220,4 +220,23 @@ sudo gem install nokogiri
 OK, that worked fine!
 
 
+## 2014-07-27
+* buying a license for the `Vagrant VMware Fusion provider`, see http://www.vagrantup.com/vmware#buy-now
+* install `Vagrant VMware Fusion provider`
+```bash
+vagrant plugin install vagrant-vmware-fusion
+vagrant plugin license vagrant-vmware-fusion license.lic
+```
+```bash
+vagrant plugin list
+vagrant-cachier (0.8.0)
+vagrant-login (1.0.1, system)
+vagrant-multiprovider-snap (0.0.11)
+vagrant-pristine (0.3.0)
+vagrant-serverspec (0.1.0)
+vagrant-share (1.1.0, system)
+vagrant-vmware-fusion (2.4.1)
+```
+
+
 DR, 2014
