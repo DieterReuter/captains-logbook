@@ -241,4 +241,8 @@ vagrant-vmware-fusion (2.4.1)
 * install `Suspicious Package 1.3` from http://www.mothersruin.com/software/SuspiciousPackage/
 
 
+## 2014-07-28
+* `brew install cdrtools`
+
+
 DR, 2014
