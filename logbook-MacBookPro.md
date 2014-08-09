@@ -245,4 +245,13 @@ vagrant-vmware-fusion (2.4.1)
 * `brew install cdrtools`
 
 
+## 20124-08-06 
+* install `Atom` from https://atom.io
+
+
+## 20124-08-08 
+* `sudo gem install bundle`
+* `sudo gem install dashing`
+
+
 DR, 2014
