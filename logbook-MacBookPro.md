@@ -254,4 +254,21 @@ vagrant-vmware-fusion (2.4.1)
 * `sudo gem install dashing`
 
 
+## 20124-08-12 
+* instal GO 1.3 from http://golang.org/dl/go1.3.darwin-amd64-osx10.8.pkg
+
+
+## 20124-08-17
+* install `Skala Color` color picker from http://bjango.com/mac/skalacolor/
+* install `Colors` color picker from http://mattpatenaude.com, details found here http://osxdaily.com/2011/09/12/digital-color-meter-picker-replacement-for-mac-os-x-lion/
+* `brew search imagemagick`
+* install Chrome ColorZilla, see http://www.colorzilla.com/chrome/
+
+
+## 20124-08-22
+* use `Oracle SQL Developer` to connect to a MS SQL Azure Server, see http://stuffthatspins.com/2014/04/07/connect-to-mssql-server-client-mac-os-x-sqlserver-client-mavericks/
+* install `Oracle SQL Developer 4.0.2 (4.0.2.15.21)` from http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index-097090.html
+* install `Java for Mac OS X 10.5, Update 1` from http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+
+
 DR, 2014
