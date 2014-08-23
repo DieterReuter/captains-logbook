@@ -269,6 +269,14 @@ vagrant-vmware-fusion (2.4.1)
 * use `Oracle SQL Developer` to connect to a MS SQL Azure Server, see http://stuffthatspins.com/2014/04/07/connect-to-mssql-server-client-mac-os-x-sqlserver-client-mavericks/
 * install `Oracle SQL Developer 4.0.2 (4.0.2.15.21)` from http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index-097090.html
 * install `Java for Mac OS X 10.5, Update 1` from http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+* install `jTDS - SQL Server and Sybase JDBC driver` from http://sourceforge.net/projects/jtds/files/
+* install `MySQL Connector/J JDBC driver` from http://dev.mysql.com/downloads/connector/j/5.0.html
+
+
+## 20124-08-23
+* install driver for `Wacom Bamboo Pen and Touch, CTH-461` 
+*    (Driver 5.3.3-3 for OS X 10.8, 10.7 & 10.6, 9 Sep 2013, from http://us.wacom.com/en/support/legacy-drivers/)
+*    MacOSX - Driver 5.3.5-4 (10.7x - 10.9x), 08/20/2014, 29 MB, from http://us.wacom.com/en/support/drivers/
 
 
 DR, 2014
