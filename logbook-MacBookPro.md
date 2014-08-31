@@ -245,27 +245,27 @@ vagrant-vmware-fusion (2.4.1)
 * `brew install cdrtools`
 
 
-## 20124-08-06 
+## 2014-08-06 
 * install `Atom` from https://atom.io
 
 
-## 20124-08-08 
+## 2014-08-08 
 * `sudo gem install bundle`
 * `sudo gem install dashing`
 
 
-## 20124-08-12 
+## 2014-08-12 
 * instal GO 1.3 from http://golang.org/dl/go1.3.darwin-amd64-osx10.8.pkg
 
 
-## 20124-08-17
+## 2014-08-17
 * install `Skala Color` color picker from http://bjango.com/mac/skalacolor/
 * install `Colors` color picker from http://mattpatenaude.com, details found here http://osxdaily.com/2011/09/12/digital-color-meter-picker-replacement-for-mac-os-x-lion/
 * `brew search imagemagick`
 * install Chrome ColorZilla, see http://www.colorzilla.com/chrome/
 
 
-## 20124-08-22
+## 2014-08-22
 * use `Oracle SQL Developer` to connect to a MS SQL Azure Server, see http://stuffthatspins.com/2014/04/07/connect-to-mssql-server-client-mac-os-x-sqlserver-client-mavericks/
 * install `Oracle SQL Developer 4.0.2 (4.0.2.15.21)` from http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index-097090.html
 * install `Java for Mac OS X 10.5, Update 1` from http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -273,10 +273,22 @@ vagrant-vmware-fusion (2.4.1)
 * install `MySQL Connector/J JDBC driver` from http://dev.mysql.com/downloads/connector/j/5.0.html
 
 
-## 20124-08-23
+## 2014-08-23
 * install driver for `Wacom Bamboo Pen and Touch, CTH-461` 
 *    (Driver 5.3.3-3 for OS X 10.8, 10.7 & 10.6, 9 Sep 2013, from http://us.wacom.com/en/support/legacy-drivers/)
 *    MacOSX - Driver 5.3.5-4 (10.7x - 10.9x), 08/20/2014, 29 MB, from http://us.wacom.com/en/support/drivers/
+
+
+## 2014-08-31
+* install GOLANG DevEnv, see http://railskey.wordpress.com/2014/05/31/install-gogolang-on-ubuntu/
+* install `gvm` from https://github.com/moovweb/gvm
+```bash
+brew install mercurial
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+gvm install go1.3.1
+gvm use go1.3.1--default
+gvm list
+```
 
 
 DR, 2014
