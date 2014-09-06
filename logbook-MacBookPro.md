@@ -286,9 +286,19 @@ vagrant-vmware-fusion (2.4.1)
 brew install mercurial
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 gvm install go1.3.1
-gvm use go1.3.1--default
+gvm use go1.3.1 --default
 gvm list
 ```
+
+
+## 2014-09-05
+* install Atom plugin `go-plus` from https://atom.io/packages/go-plus
+* `apm install go-plus`
+
+
+## 2014-09-05
+* install `OSXFUSE 2.7.0` and `SSHFS 2.5.0` from http://osxfuse.github.io
+
 
 
 DR, 2014
