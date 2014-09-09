@@ -300,5 +300,13 @@ gvm list
 * install `OSXFUSE 2.7.0` and `SSHFS 2.5.0` from http://osxfuse.github.io
 
 
+## 2014-09-07
+* install `boot2docker` from https://github.com/boot2docker/osx-installer/releases
+
+
+## 2014-09-09
+* install `GoConvey` from http://goconvey.coreleases
+* `go get github.com/smartystreets/goconvey`
+
 
 DR, 2014
