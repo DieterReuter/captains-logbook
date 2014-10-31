@@ -307,6 +307,28 @@ gvm list
 ## 2014-09-09
 * install `GoConvey` from http://goconvey.coreleases
 * `go get github.com/smartystreets/goconvey`
+* install `Sublime Text 2` from http://www.sublimetext.com `Sublime Text 2.0.2.dmg`
+* install `Sublime Package Control`from https://sublime.wbond.net/installation#st2
+* install `gosublime` from https://github.com/DisposaBoy/GoSublime
+
+
+## 2014-09-27
+* `brew install xz`
+
+
+## 2014-10-02
+* install `Vagrant 1.6.5` from http://www.vagrantup.com/downloads.html
+* install `VirtualBox 4.3.16` from https://www.virtualbox.org/wiki/Downloads
+* install `VirtualBox 4.3.16 Oracle VM VirtualBox Extension Pack`
+* install `Panamax` from http://panamax.io/get-panamax/
+* `brew install http://download.panamax.io/installer/brew/panamax.rb`
+
+
+## 2014-10-03
+* `brew install jq`
+
+## 2014-10-31
+* `brew upgrade packer` to v0.7.2
 
 
 DR, 2014
