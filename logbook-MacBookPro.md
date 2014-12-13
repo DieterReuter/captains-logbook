@@ -327,8 +327,16 @@ gvm list
 ## 2014-10-03
 * `brew install jq`
 
+
 ## 2014-10-31
 * `brew upgrade packer` to v0.7.2
+
+
+## 2014-12-13
+* `brew upgrade packer` to v0.7.5
+* install `Vagrant 1.7.1` from http://www.vagrantup.com/downloads.html
+* install `VirtualBox 4.3.20` from https://www.virtualbox.org/wiki/Downloads
+* install `VirtualBox 4.3.20 Oracle VM VirtualBox Extension Pack`
 
 
 DR, 2014
