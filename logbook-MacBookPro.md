@@ -339,4 +339,20 @@ gvm list
 * install `VirtualBox 4.3.20 Oracle VM VirtualBox Extension Pack`
 
 
-DR, 2014
+## 2015-01-15
+* `pip install virtualenv`
+```bash
+brew install autoenv
+echo 'source /usr/local/opt/autoenv/activate.sh' >> ~/.bash_profile
+```
+* `brew install ansible`
+* install `SizeUp` from http://www.irradiatedsoftware.com/sizeup/
+
+
+## 2015-01-16
+* install `Microsoft OneNote` from AppStore https://itunes.apple.com/de/app/microsoft-onenote/id784801555?mt=12 
+* install `Evernote` from AppStore https://itunes.apple.com/de/app/evernote/id406056744?mt=12
+* install `BitTorrent Sync` from http://www.getsync.com
+
+
+DR, 2015
