@@ -82,6 +82,7 @@ echo 'source /usr/local/opt/autoenv/activate.sh' >> ~/.bash_profile
 ```
 * `brew install ansible`
 * `pip install grip` see https://github.com/joeyespo/grip
+* `brew install --HEAD hub`
 
 
 DR, 2015
