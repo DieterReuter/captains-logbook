@@ -6,6 +6,16 @@
 
 ## 2015-01-17
 
+* install `1Password` from https://agilebits.com/onepassword
+* install `SizeUp` from http://www.irradiatedsoftware.com/sizeup/
+* install `Evernote` from AppStore
+* install `Microsoft OneNote` from AppStore
+* install `Microsoft Remote Desktop` from AppStore
+* install `Slack` from AppStore
+* install `Wunderlist` from AppStore
+* install `Kindle` from AppStore
+* install `Slack` from AppStore
+* install `Twitter` from AppStore
 * install `Xcode 6.1.1` from AppStore
 ```bash
 sudo xcodebuild -license
