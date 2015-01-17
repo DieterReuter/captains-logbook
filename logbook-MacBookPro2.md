@@ -81,6 +81,7 @@ brew install autoenv
 echo 'source /usr/local/opt/autoenv/activate.sh' >> ~/.bash_profile
 ```
 * `brew install ansible`
+* `pip install grip` see https://github.com/joeyespo/grip
 
 
 DR, 2015
