@@ -70,12 +70,17 @@ vagrant-share (1.1.3, system)
 vagrant-triggers (0.5.0)
 ```
 
+* `brew install jq`
+* `brew install xz`
+* `brew install tree`
+* `brew install wakeonlan`
 * `pip install virtualenv`
 * install `autoenv`
 ```bash
 brew install autoenv
 echo 'source /usr/local/opt/autoenv/activate.sh' >> ~/.bash_profile
 ```
+* `brew install ansible`
 
 
 DR, 2015
