@@ -15,6 +15,12 @@ sudo xcodebuild -license
 ```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
+brew update
+brew install cask
+```
+* install cask, see http://caskroom.io
+```bash
+brew install caskroom/cask/brew-cask
 ```
 
 * install `python` and `pip`
@@ -22,6 +28,34 @@ brew doctor
 brew install python
 pip install --upgrade setuptools
 pip install --upgrade pip
+```
+
+* install `VirtualBox 4.3.20` from https://www.virtualbox.org/wiki/Downloads
+* install `VirtualBox 4.3.20 Oracle VM VirtualBox Extension Pack`
+* install `Packer 0.7.5` as decribed in http://www.packer.io/intro/getting-started/setup.html
+```bash
+brew tap homebrew/binary
+brew install packer
+brew install homebrew/completions/packer-completion
+```
+* install `Vagrant 1.7.2`
+```bash
+brew cask install vagrant
+brew install vagrant-completion
+```
+* install vagrant plugins
+```bash
+#vagrant plugin install vagrant-cachier
+vagrant plugin install vagrant-pristine
+vagrant plugin install vagrant-serverspec
+vagrant plugin install vagrant-multiprovider-snap
+```
+```bash
+vagrant plugin list
+vagrant-multiprovider-snap (0.0.14)
+vagrant-pristine (0.3.0)
+vagrant-serverspec (0.1.0)
+vagrant-share (1.1.3, system)
 ```
 
 
