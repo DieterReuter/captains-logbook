@@ -49,6 +49,7 @@ brew install vagrant-completion
 vagrant plugin install vagrant-pristine
 vagrant plugin install vagrant-serverspec
 vagrant plugin install vagrant-multiprovider-snap
+vagrant plugin install vagrant-triggers
 ```
 ```bash
 vagrant plugin list
@@ -56,6 +57,14 @@ vagrant-multiprovider-snap (0.0.14)
 vagrant-pristine (0.3.0)
 vagrant-serverspec (0.1.0)
 vagrant-share (1.1.3, system)
+vagrant-triggers (0.5.0)
+```
+
+* `pip install virtualenv`
+* install `autoenv`
+```bash
+brew install autoenv
+echo 'source /usr/local/opt/autoenv/activate.sh' >> ~/.bash_profile
 ```
 
 
