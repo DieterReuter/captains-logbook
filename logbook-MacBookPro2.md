@@ -86,4 +86,16 @@ echo 'source /usr/local/opt/autoenv/activate.sh' >> ~/.bash_profile
 * `brew cask install iterm2`
 
 
+## 2015-01-18
+
+* set power mode to never sleep
+`sudo pmset -a sleep 0`
+
+
+## 2015-01-19
+```bash
+vagrant plugin install vagrant-reload
+```
+
+
 DR, 2015
