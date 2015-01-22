@@ -101,4 +101,20 @@ vagrant plugin install vagrant-reload
 * install `Adobe Flash` 
 
 
+## 2015-01-22
+```bash
+vagrant plugin install vagrant-hostmanager
+```
+```bash
+vagrant plugin list
+vagrant-hostmanager (1.5.0)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-pristine (0.3.0)
+vagrant-reload (0.0.1)
+vagrant-serverspec (0.1.0)
+vagrant-share (1.1.3, system)
+vagrant-triggers (0.5.0)
+```
+
+
 DR, 2015
