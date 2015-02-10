@@ -98,7 +98,7 @@ vagrant plugin install vagrant-reload
 ```
 * install OSX driver for `Digitus DN-3023` USB3.0-Ethernet Adapter from http://www.digitus.info/en/products/network/gigabit-ethernet-network/network-interface-cards/r-gigabit-ethernet-usb-30-adapter-dn-3023/
 * download `AX88179_178A.dmg` from http://ftp.assmann.com/pub/DN-/DN-3023___4016032318385/DN-3023_driver_driver%20Mac10.6-10.10_20140926.zip
-* install `Adobe Flash` 
+* install `Adobe Flash`
 
 
 ## 2015-01-22
@@ -115,6 +115,41 @@ vagrant-serverspec (0.1.0)
 vagrant-share (1.1.3, system)
 vagrant-triggers (0.5.0)
 ```
+
+
+## 2015-01-24
+* Install driver for USB2Serial from http://www.prolific.com.tw/us/showproduct.aspx?p_id=229&pcid=41
+  File=PL2303_MacOSX_v1.5.1.pkg
+
+
+## 2015-01-29
+* `brew install ssh-copy-id`
+* `brew cask install atom`
+
+
+## 2015-01-30
+* `brew install p7zip`
+
+
+## 2015-01-31
+# ValueError: unknown locale: UTF-8
+```
+cat << EOF | "tee -a .bash_profile"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+EOF
+```
+`brew cask install alfred`
+
+
+## 2015-02-09
+`brew cask install macpass`
+
+
+## 2015-02-10
+`brew cask install xquartz`
+`brew cask install wireshark`
+
 
 
 DR, 2015
