@@ -151,5 +151,12 @@ EOF
 `brew cask install wireshark`
 
 
+## 2015-02-18
+# permanently set hostname from cli
+```
+sudo scutil --set HostName DietersMBP
+sudo scutil --set HostName DietersMacBookPro
+```
+
 
 DR, 2015
