@@ -159,4 +159,45 @@ sudo scutil --set HostName DietersMacBookPro
 ```
 
 
+## 2015-02-24
+`brew install pigz`
+
+
+## 2015-02-25
+`brew cask install emacs`
+`brew cask install macvim`
+`brew install vim`
+`brew install macvim`
+`brew link --overwrite macvim`
+
+* install RVM (see https://hpc.uni.lu/blog/2014/create-a-sandboxed-python-slash-ruby-environment/)
+```
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable
+cat << EOF >> ~/.bash_profile
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+EOF
+source ~/.bash_profile
+rvm install 2.0.0 --default
+ruby -v
+ruby 2.0.0p598 (2014-11-13 revision 48408) [x86_64-darwin14.1.0]
+rvm @global do gem install bundler
+```
+`brew install pv`
+
+
+## 2015-02-27
+* install gvm and go
+```
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+gvm install go1.4.2
+gvm use go1.4.2 --default
+```
+
+
+## 2015-02-28
+`brew install hugo`
+
+
 DR, 2015
