@@ -198,6 +198,25 @@ gvm use go1.4.2 --default
 
 ## 2015-02-28
 `brew install hugo`
+`pip install --upgrade pip`
+`pip install Pygments --upgrade`
+
+
+## 2015-03-06
+* install nvm
+```bash
+brew install nvm
+mkdir ~/.nvm
+cat << EOF >> ~/.bash_profile
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+EOF
+source ~/.bash_profile
+```
+```bash
+nvm install v0.12.0
+nvm use 0.12
+```
 
 
 DR, 2015
