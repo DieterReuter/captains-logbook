@@ -219,4 +219,10 @@ nvm use 0.12
 ```
 
 
+## 2015-03-12
+`brew cask install sublime-text`
+* install `Kitematic 0.5.11` from https://kitematic.com
+* install `VirtualBox-4.3.24-98716-OSX.dmg` from https://www.virtualbox.org/wiki/Downloads
+* install `VirtualBox-4.3.24-98716-OSX.dmg Oracle VM VirtualBox Extension Pack`
+
 DR, 2015
