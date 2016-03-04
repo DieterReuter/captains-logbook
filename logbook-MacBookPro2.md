@@ -225,4 +225,32 @@ nvm use 0.12
 * install `VirtualBox-4.3.24-98716-OSX.dmg` from https://www.virtualbox.org/wiki/Downloads
 * install `VirtualBox-4.3.24-98716-OSX.dmg Oracle VM VirtualBox Extension Pack`
 
-DR, 2015
+
+## 2015-03-26
+`brew install socat`
+
+
+## 2016-03-04
+* install `VirtualBox-5.0.14-105127-OSX.dmg` from https://www.virtualbox.org/wiki/Downloads
+* install `VirtualBox-5.0.14-105127-OSX.dmg Oracle VM VirtualBox Extension Pack`
+```bash
+vagrant plugin install vagrant-pristine
+vagrant plugin install vagrant-reload
+vagrant plugin install vagrant-hostmanager
+vagrant plugin install vagrant-multiprovider-snap
+vagrant plugin install vagrant-triggers
+vagrant plugin install vagrant-share
+vagrant plugin install vagrant-serverspec
+```
+```bash
+vagrant plugin list
+vagrant-hostmanager (1.8.1)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-pristine (0.3.0)
+vagrant-reload (0.0.1)
+vagrant-serverspec (1.1.0)
+vagrant-share (1.1.5)
+vagrant-triggers (0.5.2)
+```
+
+DR, 2016
