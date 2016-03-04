@@ -241,9 +241,15 @@ vagrant plugin install vagrant-multiprovider-snap
 vagrant plugin install vagrant-triggers
 vagrant plugin install vagrant-share
 vagrant plugin install vagrant-serverspec
+vagrant plugin install vagrant-esxi
+vagrant plugin install vagrant-digitalocean
+vagrant plugin install vagrant-vmware-fusion
+vagrant plugin license vagrant-vmware-fusion /Users/dieter/software-licenses/vagrant-vmware-fusion/license.lic
 ```
 ```bash
 vagrant plugin list
+vagrant-digitalocean (0.7.10)
+vagrant-esxi (0.0.1)
 vagrant-hostmanager (1.8.1)
 vagrant-multiprovider-snap (0.0.14)
 vagrant-pristine (0.3.0)
@@ -251,6 +257,7 @@ vagrant-reload (0.0.1)
 vagrant-serverspec (1.1.0)
 vagrant-share (1.1.5)
 vagrant-triggers (0.5.2)
+vagrant-vmware-fusion (4.0.8)
 ```
 
 DR, 2016
