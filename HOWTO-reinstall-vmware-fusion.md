@@ -57,3 +57,7 @@ drwxr-xr-x@ 10 root  wheel   340 Aug  6 16:57 thnuclnt
 drwxr-xr-x   3 root  wheel   102 Aug  6 16:57 vmnet1
 drwxr-xr-x   5 root  wheel   170 Aug  6 16:57 vmnet8
 ```
+
+
+## Manually Add and Remove VMware Fusion Virtual Adapters
+see the followiing tutorial https://thornelabs.net/2013/10/18/manually-add-and-remove-vmware-fusion-virtual-adapters.html
