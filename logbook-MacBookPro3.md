@@ -7,6 +7,7 @@
 ## 2017-11-06
 
 * install `1Password` from AppStore
+* install `SizeUp` from http://www.irradiatedsoftware.com/sizeup/
 * install `Twitter` from AppStore
 * keep `Twitter.app` in Dock
 * install `Slack` from AppStore
