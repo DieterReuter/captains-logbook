@@ -22,10 +22,6 @@ git config --global user.email "dieter.reuter@me.com"
 git config --global user.name "Dieter Reuter"
 ```
 
-* install `iterm2` from https://www.iterm2.com
-* remove `Terminal.app` from Dock
-* keep `iterm2.app` in Dock
-
 * restore ssh keys
 ```bash
 mkdir -p ~/.ssh
@@ -60,9 +56,21 @@ fi
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 brew update
-brew install wget
 brew install cask
 ```
+```bash
+brew install wget
+brew install hub
+brew install jq
+brew install xz
+brew install tree
+brew install p7zip
+brew install pv
+brew cask install iterm2
+```
+
+* remove `Terminal.app` from Dock
+* keep `iterm2.app` in Dock
 
 * customize menu bar
   - attach `volume`
@@ -72,5 +80,9 @@ brew install cask
 * customize Accessibility/Zoom
   - Use scroll gesture with modifier keys to zoom to `^ Control`
 
+* set power mode to never sleep
+```bash
+sudo pmset -a sleep 0
+```
 
 DR, 2017
