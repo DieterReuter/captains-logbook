@@ -1,7 +1,7 @@
 
 # Installation log book "Dieter's MacBook Pro"
 
-![Mac](/images/Screen Shot 2015-01-17 at 16.25.24.png)
+![Mac](/images/logbook-MacBookPro2.png)
 
 
 ## 2015-01-17
