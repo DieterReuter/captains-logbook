@@ -59,12 +59,12 @@ brew install cask
 ```
 
 * customize menu bar
-- attach `volume`
-- show `battery percentage`
-- show fast user switching menu as `Full Name`
+  - attach `volume`
+  - show `battery percentage`
+  - show fast user switching menu as `Full Name`
 
 * customize Accessibility/Zoom
-- Use scroll gesture with modifier keys to zoom to `^ Control`
+  - Use scroll gesture with modifier keys to zoom to `^ Control`
 
 
 DR, 2017
