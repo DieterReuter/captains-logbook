@@ -8,6 +8,8 @@
 
 * install `1Password` from AppStore
 * install `SizeUp` from http://www.irradiatedsoftware.com/sizeup/
+* install `Bear` from AppStore
+* install `Microsoft OneNote` from AppStore
 * install `Twitter` from AppStore
 * keep `Twitter.app` in Dock
 * install `Slack` from AppStore
