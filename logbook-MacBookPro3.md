@@ -14,7 +14,7 @@
 * keep `Twitter.app` in Dock
 * install `Slack` from AppStore
 * keep `Slack.app` in Dock
-* install `Xcode 6.1.1` from AppStore
+* install `Xcode 9.1` from AppStore
 ```bash
 sudo xcodebuild -license
 ```
