@@ -88,4 +88,10 @@ brew cask install iterm2
 sudo pmset -a sleep 0
 ```
 
+* install Sublime Text 3
+```bash
+brew cask install sublime-text
+```
+
+
 DR, 2017
