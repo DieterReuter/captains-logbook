@@ -35,9 +35,9 @@ mkdir -p ~/.ssh
 cd ~
 curl -O https://github.com/hypriot/os-rootfs/raw/master/builder/files/etc/skel/.bash_prompt
 ```
-* create .profile
+* create .bash_profile
 ```bash
-cat ~/.profile
+cat ~/.bash_profile
 
 # use color ls
 export CLICOLOR=1
@@ -52,6 +52,16 @@ fi
 if [ -f ~/.bash_prompt ]; then
   . ~/.bash_prompt
 fi
+
+# see: https://gist.github.com/mischah/8149239
+# Move next only if `homebrew` is installed
+if command -v brew >/dev/null 2>&1; then
+  # Load rupa's z if installed
+  [ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
+fi
+```
+```
+brew install z
 ```
 
 * install `homebrew`, see http://brew.sh
@@ -91,6 +101,14 @@ sudo pmset -a sleep 0
 * install Sublime Text 3
 ```bash
 brew cask install sublime-text
+```
+
+* install `VirtualBox-5.2.0-118431-OSX.dmg` from https://www.virtualbox.org/wiki/Downloads
+
+* install Vagrant 2.0.1
+```bash
+brew cask install vagrant
+brew install vagrant-completion
 ```
 
 
