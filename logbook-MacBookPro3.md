@@ -16,6 +16,12 @@
 sudo xcodebuild -license
 ```
 
+* configure git user
+```
+git config --global user.email "dieter.reuter@me.com"
+git config --global user.name "Dieter Reuter"
+```
+
 * install `iterm2` from https://www.iterm2.com
 * remove `Terminal.app` from Dock
 * keep `iterm2.app` in Dock
