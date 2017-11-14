@@ -93,6 +93,9 @@ brew cask install iterm2
 * customize Accessibility/Zoom
   - Use scroll gesture with modifier keys to zoom to `^ Control`
 
+* customize secure screen lock
+  - Require password `immediately` after sleep or screen saver begins
+
 * set power mode to never sleep
 ```bash
 sudo pmset -a sleep 0
@@ -110,6 +113,11 @@ brew cask install sublime-text
 brew cask install vagrant
 brew install vagrant-completion
 ```
+
+
+## 2017-11-14
+
+* install `Plantronics Hub (Desktop)` from http://www.plantronics.com/us/category/software/
 
 
 DR, 2017
