@@ -120,4 +120,12 @@ brew install vagrant-completion
 * install `Plantronics Hub (Desktop)` from http://www.plantronics.com/us/category/software/
 
 
+## 2017-11-19
+
+* install Visual Studio Code
+```bash
+brew cask install visual-studio-code
+```
+
+
 DR, 2017
