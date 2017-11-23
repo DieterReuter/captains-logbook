@@ -128,4 +128,18 @@ brew cask install visual-studio-code
 ```
 
 
+## 2017-11-22
+* install shellcheck tool
+```bash
+brew install shellcheck
+```
+
+
+## 2017-11-23
+* install MiniShift
+```bash
+brew cask install minishift
+```
+
+
 DR, 2017
