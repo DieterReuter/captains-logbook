@@ -142,4 +142,9 @@ brew cask install minishift
 ```
 
 
+## 2015-11-27
+* Install driver for USB2Serial from http://www.prolific.com.tw/us/showproduct.aspx?p_id=229&pcid=41
+  File=PL2303_MacOSX_1.6.1_20170620.zip
+
+
 DR, 2017
