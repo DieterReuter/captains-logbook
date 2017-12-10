@@ -142,9 +142,15 @@ brew cask install minishift
 ```
 
 
-## 2015-11-27
+## 2017-11-27
 * Install driver for USB2Serial from http://www.prolific.com.tw/us/showproduct.aspx?p_id=229&pcid=41
   File=PL2303_MacOSX_1.6.1_20170620.zip
+
+
+## 2017-12-05
+* install OSX driver for `Digitus DN-3023` USB3.0-Ethernet Adapter from http://www.digitus.info/en/products/network/gigabit-ethernet-network/network-interface-cards/r-gigabit-ethernet-usb-30-adapter-dn-3023/
+* download `AX88179_178A.dmg` from http://ftp.assmann.com/pub/DN-/DN-3023___4016032318385/DN-3023_driver_Driver%20MAC10.6-10.12_20161024.zip
+
 
 
 DR, 2017
