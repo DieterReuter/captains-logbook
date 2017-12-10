@@ -152,5 +152,14 @@ brew cask install minishift
 * download `AX88179_178A.dmg` from http://ftp.assmann.com/pub/DN-/DN-3023___4016032318385/DN-3023_driver_Driver%20MAC10.6-10.12_20161024.zip
 
 
+## 2017-12-10
+* Install Terraform
+```bash
+brew install terraform
+
+terraform version
+Terraform v0.11.1
+```
+
 
 DR, 2017
