@@ -1,14 +1,14 @@
 
 # Installation log book "Dieter's MacBook Pro"
 
-![Mac](/images/logbook-MacBookPro3.png)
+![Mac](/images/logbook-MacBookPro4.png)
 
 
 ## 2018-12-20
 
 * clean install of macOS Mojave 10.14.2
 
-* restore basic .dotfile (from backup)
+* restore basic .dotfiles (from backup)
 ```
 .bash_profile
 .bash_prompt
