@@ -65,6 +65,7 @@ brew cask install sublime-text
 * install `Microsoft Remote Desktop 10` from AppStore
 * install `Slack` from AppStore
 * install `SizeUp` from http://www.irradiatedsoftware.com/sizeup/
+* customize `SizeUp` 1.7.4 to start at login
 
 * customize menu bar
   - attach `volume`
@@ -92,6 +93,13 @@ brew install shellcheck
 brew cask install visual-studio-code
 ```
 
+* install `AirParrot 2` 2.7.3 from https://www.airsquirrels.com/airparrot/
+* customize `AirParrot 2` to start at login
+
+* permanently set hostname from cli
+```
+sudo scutil --set HostName Dieters-MBP
+```
 
 ---
 
