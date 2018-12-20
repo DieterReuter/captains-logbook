@@ -8,6 +8,17 @@
 
 * clean install of macOS Mojave 10.14.2
 
+* Location is Germany, but I do want everything in en_US
+* set system Language to English
+```
+$ sudo languagesetup -langspec English
+System Language set to: English
+```
+* set time format to 12h
+```
+$ sudo defaults write /Library/Preferences/.GlobalPreferences AppleLocale "en_US"
+```
+
 * restore basic .dotfiles (from backup)
 ```
 .bash_profile
