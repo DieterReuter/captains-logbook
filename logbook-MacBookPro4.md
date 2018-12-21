@@ -120,6 +120,9 @@ brew cask install visual-studio-code
 sudo scutil --set HostName Dieters-MBP
 ```
 
+* install `Luna Display` from www.lunadisplay.com/start
+
+
 ---
 
 
