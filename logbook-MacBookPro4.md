@@ -121,6 +121,7 @@ sudo scutil --set HostName Dieters-MBP
 ```
 
 * install `Luna Display` from www.lunadisplay.com/start
+* install `VyprVPN for Mac` from https://www.goldenfrog.com/vyprvpn/vpn-apps
 
 
 ---
