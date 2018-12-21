@@ -120,8 +120,14 @@ brew cask install visual-studio-code
 sudo scutil --set HostName Dieters-MBP
 ```
 
+
+## 2018-12-21
+
 * install `Luna Display` from www.lunadisplay.com/start
 * install `VyprVPN for Mac` from https://www.goldenfrog.com/vyprvpn/vpn-apps
+
+* install OSX driver for `Digitus DN-3023` USB3.0-Ethernet Adapter from https://www.digitus.info/en/products/computer-accessories-and-components/network/network-interface-adapters/dn-3023/
+* download `AX88179_178A.dmg` from http://ftp.assmann.com/pub/DN-/DN-3023___4016032318385/DN-3023_driver_mul_Driver%20MAC10.6-10.12_20161024.zip
 
 
 ---
@@ -150,10 +156,6 @@ brew cask install minishift
 
 * Install driver for USB2Serial from http://www.prolific.com.tw/us/showproduct.aspx?p_id=229&pcid=41
   File=PL2303_MacOSX_1.6.1_20170620.zip
-
-
-* install OSX driver for `Digitus DN-3023` USB3.0-Ethernet Adapter from http://www.digitus.info/en/products/network/gigabit-ethernet-network/network-interface-cards/r-gigabit-ethernet-usb-30-adapter-dn-3023/
-* download `AX88179_178A.dmg` from http://ftp.assmann.com/pub/DN-/DN-3023___4016032318385/DN-3023_driver_Driver%20MAC10.6-10.12_20161024.zip
 
 
 * Install Terraform
