@@ -134,6 +134,7 @@ sudo scutil --set HostName Dieters-MBP
   File=PL2303_MacOSX_1_6_1_20171018.zip
 
 * install `flash` tool from https://github.com/hypriot/flash
+* install `Dropbox` from https://www.dropbox.com/install
 
 
 ---
