@@ -79,8 +79,10 @@ brew cask install sublime-text
 * customize `SizeUp` 1.7.4 to start at login
 
 * customize menu bar
-  - attach `volume`
+  - show `volume`
   - show `battery percentage`
+  - show `bluetooth`
+  - show time format as `12h`
   - show fast user switching menu as `Full Name`
 
 * customize Accessibility/Zoom
@@ -88,6 +90,12 @@ brew cask install sublime-text
 
 * customize secure screen lock
   - Require password `immediately` after sleep or screen saver begins
+
+* customize Mouse behavior
+  - activate `Secondary Click`
+
+* customize Trackpad behavior
+  - activate `Tap to click`
 
 * set power mode to never sleep
 ```bash
