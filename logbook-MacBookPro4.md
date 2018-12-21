@@ -133,6 +133,8 @@ sudo scutil --set HostName Dieters-MBP
   Download Link=http://www.prolific.com.tw/UserFiles/files/PL2303_MacOSX_1_6_1_20171018.zip
   File=PL2303_MacOSX_1_6_1_20171018.zip
 
+* install `flash` tool from https://github.com/hypriot/flash
+
 
 ---
 
