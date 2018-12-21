@@ -129,6 +129,10 @@ sudo scutil --set HostName Dieters-MBP
 * install OSX driver for `Digitus DN-3023` USB3.0-Ethernet Adapter from https://www.digitus.info/en/products/computer-accessories-and-components/network/network-interface-adapters/dn-3023/
 * download `AX88179_178A.dmg` from http://ftp.assmann.com/pub/DN-/DN-3023___4016032318385/DN-3023_driver_mul_Driver%20MAC10.6-10.12_20161024.zip
 
+* Install driver for USB2Serial from http://www.prolific.com.tw/us/showproduct.aspx?p_id=229&pcid=41
+  Download Link=http://www.prolific.com.tw/UserFiles/files/PL2303_MacOSX_1_6_1_20171018.zip
+  File=PL2303_MacOSX_1_6_1_20171018.zip
+
 
 ---
 
@@ -145,17 +149,10 @@ brew install vagrant-completion
 ```
 
 
-* install `Plantronics Hub (Desktop)` from http://www.plantronics.com/us/category/software/
-
-
 * install MiniShift
 ```bash
 brew cask install minishift
 ```
-
-
-* Install driver for USB2Serial from http://www.prolific.com.tw/us/showproduct.aspx?p_id=229&pcid=41
-  File=PL2303_MacOSX_1.6.1_20170620.zip
 
 
 * Install Terraform
