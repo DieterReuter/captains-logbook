@@ -139,6 +139,18 @@ sudo scutil --set HostName Dieters-MBP
 * install `Docker Desktop for Mac` from https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
 
+# 2018-12-26
+
+* install `Wireshark` 2.6.5
+```
+brew install wireshark --with-qt
+```
+
+maybe better, just use the packaged application
+* install `Wireshark` 2.6.5 from https://www.wireshark.org/#download
+
+
+
 ---
 
 
