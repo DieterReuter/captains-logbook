@@ -149,6 +149,13 @@ brew install wireshark --with-qt
 maybe better, just use the packaged application
 * install `Wireshark` 2.6.5 from https://www.wireshark.org/#download
 
+* install `Go 1.11.4`
+```
+brew install go
+
+$ go version
+go version go1.11.4 darwin/amd64
+```
 
 
 ---
