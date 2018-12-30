@@ -158,6 +158,14 @@ go version go1.11.4 darwin/amd64
 ```
 
 
+# 2018-12-29
+
+* install `Desktop Video 10.11.4` from https://www.blackmagicdesign.com/support/
+* install `OBS Studio 20.0.3` from https://obsproject.com
+* install `VLC media player` from https://www.videolan.org/vlc/index.html
+
+
+
 ---
 
 
