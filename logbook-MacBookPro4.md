@@ -163,7 +163,20 @@ go version go1.11.4 darwin/amd64
 * install `Desktop Video 10.11.4` from https://www.blackmagicdesign.com/support/
 * install `OBS Studio 20.0.3` from https://obsproject.com
 * install `VLC media player` from https://www.videolan.org/vlc/index.html
+* install `DaVinci Resolve 15.2.2` from https://www.blackmagicdesign.com/products/davinciresolve/
 
+* install `MediaInfo v18.12`
+```
+$
+$ mediainfo --version
+MediaInfo Command line,
+MediaInfoLib - v18.12
+```
+
+
+# 2018-12-31
+
+* install `IPEVO Visualizer for Mac` from https://www.ipevo.com/software/download/visualizer, available directlt via AppStore
 
 
 ---
