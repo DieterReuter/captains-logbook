@@ -179,6 +179,24 @@ MediaInfoLib - v18.12
 * install `IPEVO Visualizer for Mac` from https://www.ipevo.com/software/download/visualizer, available directlt via AppStore
 
 
+# 2019-01-17
+
+* Install telnet client
+```bash
+brew install telnet
+```
+
+
+# 2019-01-22
+
+* Install Azure CLI
+```bash
+
+brew update
+brew install azure-cli
+```
+
+
 ---
 
 
