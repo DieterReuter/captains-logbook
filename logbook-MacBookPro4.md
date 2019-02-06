@@ -227,4 +227,10 @@ Terraform v0.11.1
 ```
 
 
+* Install kubectx (see https://github.com/ahmetb/kubectx)
+```bash
+brew install kubectx
+```
+
+
 DR, 2018
